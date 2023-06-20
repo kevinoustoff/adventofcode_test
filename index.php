@@ -4,7 +4,7 @@ $candidateBoxId = "aabcda";
 
 $candidatesBoxesIds = ["abcdef","bababc","abbcde","abcccd","aabcdd","abcdee","ababab"];
 
-echo computeChecksum($candidatesBoxesIds);
+echo "The checksum is :". computeChecksum($candidatesBoxesIds);
 
 
 
