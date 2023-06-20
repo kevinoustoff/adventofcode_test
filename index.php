@@ -2,9 +2,9 @@
 include "functions.php";
 $candidateBoxId = "aabcda";
 
-$arr = ["abcdef","bababc","abbcde","abcccd","aabcdd","abcdee","ababab"];
+$candidatesBoxesIds = ["abcdef","bababc","abbcde","abcccd","aabcdd","abcdee","ababab"];
 
-echo computeChecksum($arr);
+echo computeChecksum($candidatesBoxesIds);
 
 
 
